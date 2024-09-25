@@ -96,3 +96,10 @@ label a:hover {
     color: blue; /* リンクの色 */
     text-decoration: underline; /* リンクに下線を追加 */
 }
+
+.error-message {
+    color: red; /* エラーメッセージの色を赤に */
+    font-size: 0.8em; /* フォントサイズを少し小さく */
+    margin-top: 0.2em; /* 上の余白を少し追加 */
+}
+
