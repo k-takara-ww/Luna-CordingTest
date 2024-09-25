@@ -99,3 +99,23 @@ label a:hover {
     font-size: 0.8em; /* フォントサイズを少し小さく */
     margin-top: 0.2em; /* 上の余白を少し追加 */
 }
+
+.profile-image-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.profile-image-label {
+    font-size: 0.9em; /* フォントサイズを少し小さく */
+    margin-bottom: 2px; /* フォームとの間のスペースを極力減らす */
+    display: block; /* ブロック表示でフォームと近づける */
+    margin-top: 10px; /* 上の余白も少し調整 */
+}
+
+/* プロフィールアイコン選択フォームを入力欄に寄せる */
+#profileImage {
+    margin-top: 5px; /* フォームの上側マージンを減らす */
+}
