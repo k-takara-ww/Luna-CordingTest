@@ -1,0 +1,99 @@
+/* ログインページのスタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* 明るいグレー */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* タイトルの色 */
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white; /* フォームの背景はホワイト */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffffff; /* 入力フォームの背景をホワイトに */
+    border: 1px solid #e0e0e0; /* ライトグレーの枠線 */
+    border-radius: 4px;
+    color: #555555; /* ダークグレーのフォントカラー */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; /* ダークグリーン */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* パスワード入力フォームとボタンの間にマージンを追加 */
+}
+
+button:hover {
+    background-color: #45a049; /* 明るいグリーン */
+}
+
+p.error-message {
+    color: red; /* エラーメッセージの色 */
+    text-align: center;
+    font-size: 0.8em; /* エラーメッセージのフォントサイズを少し小さく */
+}
+
+label {
+    color: #333; /* ラベルの色をダークグレーに */
+}
+
+label a {
+    color: #007bff; /* リンクの色を青に */
+    text-decoration: underline; /* 下線を追加 */
+}
+
+label a:hover {
+    color: #0056b3; /* ホバー時のリンクの色を少し濃く */
+}
+
+/* パスワードを忘れた場合のリンク */
+.forgot-password-link {
+    color: #007bff;
+    cursor: pointer;
+    text-align: right;
+    display: block;
+    margin: 20px 0; 
+    text-decoration: underline;
+}
+
+/* 新規登録リンクのスタイル */
+.signup-link {
+    color: #4caf50; /* ダークグリーンの色 */
+    cursor: pointer;
+    text-align: right;
+    display: block;
+    margin-top: 10px; 
+    text-decoration: underline;
+}
+
+.signup-link:hover {
+    color: #45a049; /* ホバー時に少し明るく */
+}
+
+.form-container {
+    margin: 20px; /* フォーム全体のマージン */
+}
+
+.form-title {
+    text-align: center; /* タイトルを中央寄せ */
+    margin-bottom: 20px; /* タイトルと入力フォームの間にスペース */
+}
