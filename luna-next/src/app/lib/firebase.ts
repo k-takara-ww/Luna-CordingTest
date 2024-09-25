@@ -12,8 +12,6 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
-const auth = getAuth(app);
-const db = getFirestore(app);
-
-export { auth, db };
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+export const firestore = getFirestore(app);
