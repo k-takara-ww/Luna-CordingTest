@@ -34,10 +34,13 @@ const SignUpPage = () => {
     }
 
     try {
+      // Firebase Authenticationでユーザーを作成
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
 
+      // Firestoreにユーザー情報とUIDを保存
       await setDoc(doc(firestore, 'users', user.uid), {
+        uid: user.uid, // UIDを保存
         username,
         email,
         birthday,
